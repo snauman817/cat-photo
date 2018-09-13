@@ -39,19 +39,19 @@ p {
   display: block;
 }
 
-.silver-background {
+.section-background {
   background-color: silver;
   padding: 20px;
 }
 
-.green-border {
+.section-border {
   border-width: 2px;
   border-color: green;
   border-style: groove;
   border-radius: 5px;
 }
 
-.green-border:hover {
+.section-border:hover {
   border-color: black;
 }
 
