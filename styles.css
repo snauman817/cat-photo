@@ -3,7 +3,7 @@ body {
 }
 
 a:hover {
-  color: black;
+  color: darkgray;
 }
 
 h1 {
@@ -42,10 +42,17 @@ p {
 .silver-background {
   background-color: silver;
   padding: 20px;
+}
+
+.green-border {
   border-width: 2px;
   border-color: green;
   border-style: groove;
   border-radius: 5px;
+}
+
+.green-border:hover {
+  border-color: black;
 }
 
 .list {
