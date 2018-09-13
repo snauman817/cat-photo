@@ -7,14 +7,14 @@ a:hover {
 }
 
 h1 {
-  font-family: Lobster, monospace;
+  font-family: Raleway,  sans-serif;
   background-color: lightgray;
   color: darkgreen;
 }
 
 p {
   font-size: 16px;
-  font-family: monospace;
+  font-family: sans-serif;
 }
 
 .start-text {
