@@ -1,13 +1,15 @@
-.red-text {
-  color: red;
+body {
+  background-color: lightgreen;
 }
 
 a:hover {
-  color: lightblue;
+  color: black;
 }
 
-h2 {
+h1 {
   font-family: Lobster, monospace;
+  background-color: lightgray;
+  color: darkgreen;
 }
 
 p {
@@ -15,23 +17,46 @@ p {
   font-family: monospace;
 }
 
-.thick-green-border {
-  border-color: green;
-  border-width: 10px;
-  border-style: solid;
+.start-text {
+  text-align: center;
+}
+
+.image-border {
   border-radius: 50%;
+  border-color: aliceblue;
+  border-style: solid;
+  border-width: 5px;
 }
 
-.thick-green-border:hover {
-  border-color: blue;
+.image-border:hover {
+  border-color: lightblue;
 }
 
-.smaller-image {
-  width: 100px;
+.main-image {
+  width: 200px;
+  margin-left: auto;
+  margin-right:auto;
+  display: block;
 }
 
 .silver-background {
   background-color: silver;
+  padding: 20px;
+  border-width: 2px;
+  border-color: green;
+  border-style: groove;
+  border-radius: 5px;
+}
+
+.list {
+  background-color: lightgreen;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.list:hover {
+  background-color: aliceblue;
 }
 
 input[type="text"] {
@@ -40,4 +65,9 @@ input[type="text"] {
 
 input[type="text"]:hover {
   background-color: lightgray;
+}
+
+button {
+  background-color: darkgray;
+  color: white;
 }
