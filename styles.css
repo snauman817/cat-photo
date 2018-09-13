@@ -2,6 +2,10 @@
   color: red;
 }
 
+a:hover {
+  color: lightblue;
+}
+
 h2 {
   font-family: Lobster, monospace;
 }
@@ -18,10 +22,22 @@ p {
   border-radius: 50%;
 }
 
+.thick-green-border:hover {
+  border-color: blue;
+}
+
 .smaller-image {
   width: 100px;
 }
 
 .silver-background {
   background-color: silver;
+}
+
+input[type="text"] {
+  color: darkorange;
+}
+
+input[type="text"]:hover {
+  background-color: lightgray;
 }
