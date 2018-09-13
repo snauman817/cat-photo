@@ -66,6 +66,10 @@ p {
   background-color: aliceblue;
 }
 
+form {
+  margin-top: 20px;
+}
+
 input[type="text"] {
   color: darkorange;
 }
